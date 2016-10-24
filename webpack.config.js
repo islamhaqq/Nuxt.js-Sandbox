@@ -3,5 +3,9 @@ module.exports = {
     output: {
         path: __dirname,
         filename: 'reactApp-output.js'
-    }
+    },
+    module: [{
+        test: /\.jsx?$/,
+        loader: 'babel'
+    }]
 };
