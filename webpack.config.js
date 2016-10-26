@@ -4,12 +4,14 @@ module.exports = {
         path: __dirname,
         filename: 'reactApp-output.js'
     },
-    module: [{
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        loaders: 'babel',
-        query: {
-            presets: ['es2015', 'react']
-        }
-    }]
+    module: {
+        loaders: [{
+            test: /\.jsx?$/,
+            exclude: /node_modules/,
+            loader: 'babel',
+            query: {
+                presets: ['es2015', 'react']
+            }
+        }]
+    }
 };
