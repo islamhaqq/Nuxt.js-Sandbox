@@ -4,9 +4,9 @@ import { render } from 'react-dom';
 class App extends React.Component{
     render() {
         return (
-            <div></div>
+            <div>hi</div>
         )
     }
 }
 
-render()
+render(<App/>, document.getElementById('reactApp'));
