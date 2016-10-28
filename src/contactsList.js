@@ -9,3 +9,5 @@ class ContactsListComponent extends React.Component {
         )
     }
 }
+
+export default ContactsListComponent;
