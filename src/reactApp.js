@@ -11,4 +11,4 @@ class ReactApp extends React.Component{
     }
 }
 
-render(<ReactApp/>, document.getElementById('reactApp'));
+render(<ReactApp/>, document.getElementById('component-display'));
