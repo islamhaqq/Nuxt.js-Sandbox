@@ -6,7 +6,7 @@ class ContactsListComponent extends React.Component {
     render() {
         return (
             <ul>
-                <li>Scott 555 555 5555</li>
+                <li>{contacts.name} {contacts.phone}</li>
             </ul>
         )
     }
