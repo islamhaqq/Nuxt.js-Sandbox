@@ -1,8 +1,8 @@
 module.exports = {
-    entry: './src/reactApp.js',
+    entry: './src/AppComponent.js',
     output: {
         path: __dirname,
-        filename: 'reactApp-output.js'
+        filename: 'AppComponent-output.js'
     },
     module: {
         loaders: [{

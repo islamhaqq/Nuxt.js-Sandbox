@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import ContactsListComponent from './contactsList';
+import ContactsListComponent from './ContactsListComponent';
 
 class AppComponent extends React.Component{
     render() {
