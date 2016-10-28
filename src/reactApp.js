@@ -6,6 +6,7 @@ class ReactApp extends React.Component{
         return (
             <div>
                 <h1>Contacts List</h1>
+                <ContactsList/>
             </div>
         )
     }
