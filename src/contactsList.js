@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ContactsList extends React.Component {
+class ContactsListComponent extends React.Component {
     render() {
         return (
             <ul>
